@@ -4,8 +4,8 @@ local config = {}
 config.term = 'wezterm'
 config.max_fps = 160
 
-config.font = wezterm.font 'JetBrainsMono Nerd Font Mono'
-config.font_size = 16
+config.font = wezterm.font("RobotoMono Nerd Font Mono", { weight = "Bold" })
+config.font_size = 17
 
 config.color_scheme = 'Miramare (Gogh)'
 config.window_decorations = "RESIZE"
