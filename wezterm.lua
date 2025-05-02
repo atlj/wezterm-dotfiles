@@ -4,10 +4,10 @@ local config = {}
 config.term = 'wezterm'
 config.max_fps = 160
 
-config.font = wezterm.font("RobotoMono Nerd Font Mono", { weight = "Bold" })
-config.font_size = 17
+config.font = wezterm.font("RobotoMono Nerd Font Mono", { weight = "Regular" })
+config.font_size = 18
 
-config.color_scheme = 'Miramare (Gogh)'
+config.color_scheme = 'Jellybeans (Gogh)'
 config.window_decorations = "RESIZE"
 
 config.use_fancy_tab_bar = false
@@ -40,11 +40,6 @@ config.keys = {
     key = "j",
     mods = "CTRL",
     action = wezterm.action.ActivateTabRelative(1)
-  },
-  {
-    key = "k",
-    mods = "CTRL",
-    action = wezterm.action.ActivateTabRelative(-1)
   },
   {
     key = "k",
