@@ -6,6 +6,8 @@ config.max_fps = 160
 
 config.font = wezterm.font("RobotoMono Nerd Font Mono", { weight = "Regular" })
 config.font_size = 18
+local additional_line_height = 15 -- between 0 and 100
+config.line_height = 1 + (additional_line_height / 100)
 
 config.color_scheme = 'Jellybeans (Gogh)'
 config.window_decorations = "RESIZE"
